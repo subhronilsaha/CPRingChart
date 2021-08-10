@@ -19,10 +19,14 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'CPRingChart'
 ```
+## Screenshots
+
+<img width="267" alt="Screenshot 2021-08-10 at 6 06 36 PM" src="https://user-images.githubusercontent.com/44949134/128867848-01d36a47-a21c-47d6-a2bc-e1dfb8e143df.png">
+
 
 ## Author
 
-44949134, subhronil.quixote@gmail.com
+Subhronil Saha, subhronil.quixote@gmail.com
 
 ## License
 
