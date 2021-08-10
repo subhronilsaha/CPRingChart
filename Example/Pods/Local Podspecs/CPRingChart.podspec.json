@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "CPRingChart/Classes/**/*"
+  "source_files": "CPRingChart/Classes/**/*",
+  "dependencies": {
+    "CircleProgressView": [
+
+    ]
+  }
 }

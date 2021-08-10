@@ -269,11 +269,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CPRingChart_Example/Pods-CPRingChart_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CPRingChart/CPRingChart.framework",
+				"${BUILT_PRODUCTS_DIR}/CircleProgressView/CircleProgressView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPRingChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleProgressView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

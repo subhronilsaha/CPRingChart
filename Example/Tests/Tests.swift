@@ -1,5 +1,5 @@
 import XCTest
-import CPRingChart
+//import CPRingChart
 
 class Tests: XCTestCase {
     

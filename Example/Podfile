@@ -3,8 +3,10 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'CPRingChart_Example' do
+  
+  pod 'CircleProgressView'
   pod 'CPRingChart', :path => '../'
-
+  
   target 'CPRingChart_Tests' do
     inherit! :search_paths
 

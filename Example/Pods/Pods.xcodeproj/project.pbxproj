@@ -6,86 +6,113 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C5FFA2AB9BD6E1EBA9C706D1D990D955 /* CPRingChart */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BF1778D49674105C004F914094D7B67C /* Build configuration list for PBXAggregateTarget "CPRingChart" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7801D1051C03E8AB65CCB0A8F7B32498 /* PBXTargetDependency */,
+			);
+			name = CPRingChart;
+			productName = CPRingChart;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1013AEAABC83323ECCAA1079560F300B /* Pods-CPRingChart_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4339A25C63BE080D3330ACD097B7601 /* Pods-CPRingChart_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		223F334A7D0E7927B9DC904BF6588D12 /* Pods-CPRingChart_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A899AEACC4607B4CC005B3E4B2339125 /* Pods-CPRingChart_Example-dummy.m */; };
-		3CC2A519D42CFB525F1E809B4DE271CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		42833214574AF4F278B26815677EA4B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1B18DF6670C9DF83F13F5C911DA3EA5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		429042953438C0C154D687F416C47A0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		42C89FC34D3275FCC425988EA230DDB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A5621321C37DE62A8E888496A187A /* AppDelegate.swift */; };
+		54D1558D6544D315A03B480A408DBD83 /* CircleProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6063D36DF63884235E5ECCE1C16DC1E0 /* CircleProgressView-dummy.m */; };
+		594F65857225A2A3D196FF8A8D90EDB5 /* Pods-CPRingChart_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4339A25C63BE080D3330ACD097B7601 /* Pods-CPRingChart_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EDB32084F408F80BFBE5E1E4748169E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683FE4AE68E802796A480940C3F84DC /* ViewController.swift */; };
 		6402CE3937A89752A2C29138BF9A3B02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7086DD91240421319A7B5AB894DD46FB /* Pods-CPRingChart_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A899AEACC4607B4CC005B3E4B2339125 /* Pods-CPRingChart_Example-dummy.m */; };
+		7F4CDBB37ED3B8D3FCEAC535E9C2E18F /* CircleProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D4BE71BD31C4802F8F221741C95D80 /* CircleProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C4B6F59F90757017C8AB4EF25BCA655 /* Pods-CPRingChart_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F40026019E0490B9BBC34486981720DA /* Pods-CPRingChart_Tests-dummy.m */; };
-		9033C437C36CD84E95505ADE023C16BC /* CPRingChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF16E1F4325A935E92C07D6400A82544 /* CPRingChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7BC698921925349A7B1607664682276 /* CPRingChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 035F45E76981E81F798A8096BCF3CFA8 /* CPRingChart-dummy.m */; };
+		9E881E1A5B1CFC22054F440FFEB0670C /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EACADE03F222FB314BE5BE3C893E9BD /* CircleProgressView.swift */; };
 		C427D749BD27BD1BB105C89063585451 /* Pods-CPRingChart_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C10CE8D6347CE1C2E1CAF1E0C94E58A /* Pods-CPRingChart_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6C4F1AE0C33B419AFD1F9222C5C86B2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3F2404D720B12F196E39A19792D7C5 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5092A39FE98D6FC17FB5D1C87F899863 /* PBXContainerItemProxy */ = {
+		7F60BD11900C07A27FB720CD618B00C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5FFA2AB9BD6E1EBA9C706D1D990D955;
-			remoteInfo = CPRingChart;
+			remoteGlobalIDString = 4949F2E81928B23F0DBD7CBD4C7FAD08;
+			remoteInfo = CircleProgressView;
 		};
-		64F70F101C16ACCCFD75E5D68826EEE6 /* PBXContainerItemProxy */ = {
+		977FD07C230D9DC7AC2C31A7FBCF1388 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CFB4175BE19ECA37C76F40ED1F93FC29;
 			remoteInfo = "Pods-CPRingChart_Example";
 		};
+		C18A99819216EBF137B5241C8A55DC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4949F2E81928B23F0DBD7CBD4C7FAD08;
+			remoteInfo = CircleProgressView;
+		};
+		D0635C3725B6BE0CE5F36F0067094EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FFA2AB9BD6E1EBA9C706D1D990D955;
+			remoteInfo = CPRingChart;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006A208C693FB2E9A25D929756720D67 /* CPRingChart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CPRingChart.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		035F45E76981E81F798A8096BCF3CFA8 /* CPRingChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPRingChart-dummy.m"; sourceTree = "<group>"; };
+		03C57049C724CFD62E0D5F563D16B93B /* CircleProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressView.release.xcconfig; sourceTree = "<group>"; };
 		0599E882E47089E6671E65B760C73536 /* Pods-CPRingChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRingChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0E6B20E589C01815828E421FDDBDE330 /* Pods-CPRingChart_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRingChart_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F57F930E7D3B71917A8C3B67DAD3CA5 /* Pods-CPRingChart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRingChart_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1D77363342E376D95CB1CA8FFB66B16F /* Pods-CPRingChart_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRingChart_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EACADE03F222FB314BE5BE3C893E9BD /* CircleProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleProgressView.swift; path = CircleProgressView/CircleProgressView.swift; sourceTree = "<group>"; };
 		210418C540613AC53FFD3391F172CEB1 /* Pods-CPRingChart_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRingChart_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2D477C0A17CAF21E617AF8218C51864A /* CPRingChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPRingChart.modulemap; sourceTree = "<group>"; };
+		28D4BE71BD31C4802F8F221741C95D80 /* CircleProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressView-umbrella.h"; sourceTree = "<group>"; };
+		2BB5B4FBBE5243952C6B54447382E54E /* CircleProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleProgressView.modulemap; sourceTree = "<group>"; };
+		30C98E670A5FAFC902A9E77AC29EDB1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		355FECEB9118896427B79A0E8E832D78 /* CircleProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleProgressView-Info.plist"; sourceTree = "<group>"; };
+		40DD1E868C7C14094FFEB3248C0BFF70 /* CPRingChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRingChart.debug.xcconfig; sourceTree = "<group>"; };
+		4A5A5621321C37DE62A8E888496A187A /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CircleProgressView/AppDelegate.swift; sourceTree = "<group>"; };
+		4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E2737887EC169599493561F7895530 /* Pods-CPRingChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRingChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		56CA50D6243102F61385A21DE5CED4E8 /* Pods-CPRingChart_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRingChart_Example-Info.plist"; sourceTree = "<group>"; };
+		6063D36DF63884235E5ECCE1C16DC1E0 /* CircleProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgressView-dummy.m"; sourceTree = "<group>"; };
 		65B2A3EDE90C3089217CF0FC91D8ACC1 /* Pods-CPRingChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRingChart_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6FE7C789B1019798EB953880AC1C105B /* CPRingChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRingChart.release.xcconfig; sourceTree = "<group>"; };
 		7293062F071518B4DD309360C7EA1159 /* Pods-CPRingChart_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPRingChart_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7EF4F3865545C68E0263B3884C6B0A0A /* CPRingChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CPRingChart-Info.plist"; sourceTree = "<group>"; };
 		891976ED9C4EF571E214B51F826DDD3D /* Pods-CPRingChart_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPRingChart_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		920A31A60A28393BD366C2EC1434DB1C /* Pods_CPRingChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPRingChart_Tests.framework; path = "Pods-CPRingChart_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920A31A60A28393BD366C2EC1434DB1C /* Pods_CPRingChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRingChart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C10CE8D6347CE1C2E1CAF1E0C94E58A /* Pods-CPRingChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPRingChart_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4795DC8EF1F104C993F9C2875A0B886 /* CPRingChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRingChart.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A58680DD9A1203E4A3187DE39399E75B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A683FE4AE68E802796A480940C3F84DC /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CircleProgressView/ViewController.swift; sourceTree = "<group>"; };
 		A899AEACC4607B4CC005B3E4B2339125 /* Pods-CPRingChart_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPRingChart_Example-dummy.m"; sourceTree = "<group>"; };
-		ADAE20B8E046C9C62909E7807179B92A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ACBD9DF94FB46DA3B87ACB9CFE32D44D /* CPRingChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRingChart.release.xcconfig; sourceTree = "<group>"; };
 		AEAFF490070EA562FE5BCA12F70CEC4F /* Pods-CPRingChart_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPRingChart_Tests.modulemap"; sourceTree = "<group>"; };
-		BB284786F943AC2CFE7A85A06FA55A5A /* CPRingChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRingChart-prefix.pch"; sourceTree = "<group>"; };
-		BE3F2404D720B12F196E39A19792D7C5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CPRingChart/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		C66A8D4C2970BB95AB99CF716000E0AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CDBC886476A86AACDB5B8CC848C7C156 /* Pods-CPRingChart_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRingChart_Tests-Info.plist"; sourceTree = "<group>"; };
-		CF16E1F4325A935E92C07D6400A82544 /* CPRingChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRingChart-umbrella.h"; sourceTree = "<group>"; };
+		D1DE5AF34C2B5C00639CA65CEE20E5D2 /* CircleProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressView-prefix.pch"; sourceTree = "<group>"; };
+		D3DCA66226C29FFB008987E7 /* CPRingChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPRingChart.swift; sourceTree = "<group>"; };
+		DBE7F46F249D217739D5E1B91A9F56D9 /* CircleProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressView.debug.xcconfig; sourceTree = "<group>"; };
 		DEFACE93086FA83DC0B32ED6514CB412 /* Pods-CPRingChart_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPRingChart_Example.modulemap"; sourceTree = "<group>"; };
-		E3DECA80038A59475D88147C98048CBF /* CPRingChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPRingChart.framework; path = CPRingChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E81EF38B736E6F8FE37F46B6D2D3F382 /* Pods_CPRingChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPRingChart_Example.framework; path = "Pods-CPRingChart_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81EF38B736E6F8FE37F46B6D2D3F382 /* Pods_CPRingChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRingChart_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA49422501A4B582678C71681EEAD72 /* CPRingChart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CPRingChart.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F40026019E0490B9BBC34486981720DA /* Pods-CPRingChart_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPRingChart_Tests-dummy.m"; sourceTree = "<group>"; };
 		F4339A25C63BE080D3330ACD097B7601 /* Pods-CPRingChart_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPRingChart_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		249BF88FC66E1DB1604A9486BBD46D40 /* Frameworks */ = {
+		A60738F8D1D4C4E3C7F5845D8019F9C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42833214574AF4F278B26815677EA4B3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		858E94BD702ACA8A9C22C36C73DA065D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CC2A519D42CFB525F1E809B4DE271CD /* Foundation.framework in Frameworks */,
+				429042953438C0C154D687F416C47A0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,50 +124,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D338A8942BF17AEDBA0B80176CB15413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B18DF6670C9DF83F13F5C911DA3EA5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20943981D8AA495A9C72D3E2FCC32EBA /* Development Pods */ = {
+		13668F5BBCB2E199405E065E8050873C /* CircleProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				9CD369889DDE1321072E583B643B3712 /* CPRingChart */,
+				4A5A5621321C37DE62A8E888496A187A /* AppDelegate.swift */,
+				1EACADE03F222FB314BE5BE3C893E9BD /* CircleProgressView.swift */,
+				A683FE4AE68E802796A480940C3F84DC /* ViewController.swift */,
+				2A8E9064E1743A3ED8675E106AC68368 /* Support Files */,
 			);
-			name = "Development Pods";
+			path = CircleProgressView;
 			sourceTree = "<group>";
 		};
-		2122D5E53A38144E112E777E2D29B772 /* Support Files */ = {
+		2A8E9064E1743A3ED8675E106AC68368 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D477C0A17CAF21E617AF8218C51864A /* CPRingChart.modulemap */,
-				035F45E76981E81F798A8096BCF3CFA8 /* CPRingChart-dummy.m */,
-				7EF4F3865545C68E0263B3884C6B0A0A /* CPRingChart-Info.plist */,
-				BB284786F943AC2CFE7A85A06FA55A5A /* CPRingChart-prefix.pch */,
-				CF16E1F4325A935E92C07D6400A82544 /* CPRingChart-umbrella.h */,
-				A4795DC8EF1F104C993F9C2875A0B886 /* CPRingChart.debug.xcconfig */,
-				6FE7C789B1019798EB953880AC1C105B /* CPRingChart.release.xcconfig */,
+				2BB5B4FBBE5243952C6B54447382E54E /* CircleProgressView.modulemap */,
+				6063D36DF63884235E5ECCE1C16DC1E0 /* CircleProgressView-dummy.m */,
+				355FECEB9118896427B79A0E8E832D78 /* CircleProgressView-Info.plist */,
+				D1DE5AF34C2B5C00639CA65CEE20E5D2 /* CircleProgressView-prefix.pch */,
+				28D4BE71BD31C4802F8F221741C95D80 /* CircleProgressView-umbrella.h */,
+				DBE7F46F249D217739D5E1B91A9F56D9 /* CircleProgressView.debug.xcconfig */,
+				03C57049C724CFD62E0D5F563D16B93B /* CircleProgressView.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CPRingChart";
+			path = "../Target Support Files/CircleProgressView";
 			sourceTree = "<group>";
 		};
-		28CF61C0E47FE9BEEB5531036B1F9210 /* Pod */ = {
+		3A092CEF30A0623E8C895921942A8F7F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				006A208C693FB2E9A25D929756720D67 /* CPRingChart.podspec */,
-				C66A8D4C2970BB95AB99CF716000E0AD /* LICENSE */,
-				ADAE20B8E046C9C62909E7807179B92A /* README.md */,
+				EBA49422501A4B582678C71681EEAD72 /* CPRingChart.podspec */,
+				A58680DD9A1203E4A3187DE39399E75B /* LICENSE */,
+				30C98E670A5FAFC902A9E77AC29EDB1A /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		506D5E3F9BB68AB99F31A818CCB93D19 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E3DECA80038A59475D88147C98048CBF /* CPRingChart.framework */,
-				E81EF38B736E6F8FE37F46B6D2D3F382 /* Pods_CPRingChart_Example.framework */,
-				920A31A60A28393BD366C2EC1434DB1C /* Pods_CPRingChart_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -149,6 +177,14 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		72FA9621519C71E99DA37BAD4519EDD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13668F5BBCB2E199405E065E8050873C /* CircleProgressView */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		8C02406233D6511AB2BDB1CF7CCACCAF /* Targets Support Files */ = {
@@ -177,24 +213,24 @@
 			path = "Target Support Files/Pods-CPRingChart_Example";
 			sourceTree = "<group>";
 		};
-		9CD369889DDE1321072E583B643B3712 /* CPRingChart */ = {
+		C3BB08F1AAFCC09C744C3FEB80647323 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE3F2404D720B12F196E39A19792D7C5 /* ReplaceMe.swift */,
-				28CF61C0E47FE9BEEB5531036B1F9210 /* Pod */,
-				2122D5E53A38144E112E777E2D29B772 /* Support Files */,
+				4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView.framework */,
+				E81EF38B736E6F8FE37F46B6D2D3F382 /* Pods_CPRingChart_Example.framework */,
+				920A31A60A28393BD366C2EC1434DB1C /* Pods_CPRingChart_Tests.framework */,
 			);
-			name = CPRingChart;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				20943981D8AA495A9C72D3E2FCC32EBA /* Development Pods */,
+				E0C196E8063F16007D2DA4BD7EE31FE5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				506D5E3F9BB68AB99F31A818CCB93D19 /* Products */,
+				72FA9621519C71E99DA37BAD4519EDD4 /* Pods */,
+				C3BB08F1AAFCC09C744C3FEB80647323 /* Products */,
 				8C02406233D6511AB2BDB1CF7CCACCAF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -205,6 +241,22 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3DCA66126C29FFB008987E7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D3DCA66226C29FFB008987E7 /* CPRingChart.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E0C196E8063F16007D2DA4BD7EE31FE5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB873EB0540AF149772F4513C6FDF0 /* CPRingChart */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E1BAD5637D5E03D81D1B9111E207AEF7 /* Pods-CPRingChart_Tests */ = {
@@ -223,22 +275,35 @@
 			path = "Target Support Files/Pods-CPRingChart_Tests";
 			sourceTree = "<group>";
 		};
+		FFAA6BE942302BFD815A00F0D235CE7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40DD1E868C7C14094FFEB3248C0BFF70 /* CPRingChart.debug.xcconfig */,
+				ACBD9DF94FB46DA3B87ACB9CFE32D44D /* CPRingChart.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CPRingChart";
+			sourceTree = "<group>";
+		};
+		FFAB873EB0540AF149772F4513C6FDF0 /* CPRingChart */ = {
+			isa = PBXGroup;
+			children = (
+				D3DCA66126C29FFB008987E7 /* Source */,
+				3A092CEF30A0623E8C895921942A8F7F /* Pod */,
+				FFAA6BE942302BFD815A00F0D235CE7D /* Support Files */,
+			);
+			name = CPRingChart;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7B6327AC4F41B987E191CBD9297E9357 /* Headers */ = {
+		D11BEF93BEB717473C979BF9DFE59E5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9033C437C36CD84E95505ADE023C16BC /* CPRingChart-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		967DA9BB5405AD052F37EB86C71F8187 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1013AEAABC83323ECCAA1079560F300B /* Pods-CPRingChart_Example-umbrella.h in Headers */,
+				594F65857225A2A3D196FF8A8D90EDB5 /* Pods-CPRingChart_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +315,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA51A9F2D0FDA968A1172F095679E9EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4CDBB37ED3B8D3FCEAC535E9C2E18F /* CircleProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3C72627567D8678CD0D1EE8D919616 /* Build configuration list for PBXNativeTarget "CircleProgressView" */;
+			buildPhases = (
+				DA51A9F2D0FDA968A1172F095679E9EA /* Headers */,
+				942F039ABF786A3596F7466E7C3A3089 /* Sources */,
+				A60738F8D1D4C4E3C7F5845D8019F9C8 /* Frameworks */,
+				385A5FE3B8636C42EE2AB784173A1AF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressView;
+			productName = CircleProgressView;
+			productReference = 4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		763C2D58AC79EA6E6ABAFCBEDD553AD8 /* Pods-CPRingChart_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C79D93F5F335365BDFA65AD28792457 /* Build configuration list for PBXNativeTarget "Pods-CPRingChart_Tests" */;
@@ -265,44 +356,27 @@
 			buildRules = (
 			);
 			dependencies = (
-				72636B7B814E16B118AC46BD331A6F88 /* PBXTargetDependency */,
+				C2A176AC1116721B54144033015970B9 /* PBXTargetDependency */,
 			);
 			name = "Pods-CPRingChart_Tests";
 			productName = "Pods-CPRingChart_Tests";
 			productReference = 920A31A60A28393BD366C2EC1434DB1C /* Pods_CPRingChart_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C5FFA2AB9BD6E1EBA9C706D1D990D955 /* CPRingChart */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 702926127DD1FF88C25E8F725B96770B /* Build configuration list for PBXNativeTarget "CPRingChart" */;
-			buildPhases = (
-				7B6327AC4F41B987E191CBD9297E9357 /* Headers */,
-				018DEDCC646C9A73315E496E6B53622A /* Sources */,
-				249BF88FC66E1DB1604A9486BBD46D40 /* Frameworks */,
-				135C304E1FAD2B5C2454AADE92F3DAC2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CPRingChart;
-			productName = CPRingChart;
-			productReference = E3DECA80038A59475D88147C98048CBF /* CPRingChart.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		CFB4175BE19ECA37C76F40ED1F93FC29 /* Pods-CPRingChart_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39BCBB8C9D4AD3EAF5D2AEBDC05FB366 /* Build configuration list for PBXNativeTarget "Pods-CPRingChart_Example" */;
+			buildConfigurationList = C2C1E47D2DBA89E255BB199C12FDAD07 /* Build configuration list for PBXNativeTarget "Pods-CPRingChart_Example" */;
 			buildPhases = (
-				967DA9BB5405AD052F37EB86C71F8187 /* Headers */,
-				4E1AC8D7F2853E7628F5C17C4986A2C6 /* Sources */,
-				858E94BD702ACA8A9C22C36C73DA065D /* Frameworks */,
-				8E7B4E5C3499B20ECD9740154EF54651 /* Resources */,
+				D11BEF93BEB717473C979BF9DFE59E5B /* Headers */,
+				5C0D0138A45CF3006F039700A0F117B8 /* Sources */,
+				D338A8942BF17AEDBA0B80176CB15413 /* Frameworks */,
+				5DEC63578C88362BDB956E1B319163AC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				065342181C784C7480C40CC4816A3D0F /* PBXTargetDependency */,
+				07FCD8D6744B7E58A1E9A7C11D9FA055 /* PBXTargetDependency */,
+				AE1DBDD8A760C1AA0A8BE6E0294A6D03 /* PBXTargetDependency */,
 			);
 			name = "Pods-CPRingChart_Example";
 			productName = "Pods-CPRingChart_Example";
@@ -327,10 +401,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 506D5E3F9BB68AB99F31A818CCB93D19 /* Products */;
+			productRefGroup = C3BB08F1AAFCC09C744C3FEB80647323 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */,
 				C5FFA2AB9BD6E1EBA9C706D1D990D955 /* CPRingChart */,
 				CFB4175BE19ECA37C76F40ED1F93FC29 /* Pods-CPRingChart_Example */,
 				763C2D58AC79EA6E6ABAFCBEDD553AD8 /* Pods-CPRingChart_Tests */,
@@ -339,13 +414,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		135C304E1FAD2B5C2454AADE92F3DAC2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21044461A746CF1EA4B986898A5CAFF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,7 +421,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E7B4E5C3499B20ECD9740154EF54651 /* Resources */ = {
+		385A5FE3B8636C42EE2AB784173A1AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEC63578C88362BDB956E1B319163AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +438,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		018DEDCC646C9A73315E496E6B53622A /* Sources */ = {
+		5C0D0138A45CF3006F039700A0F117B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BC698921925349A7B1607664682276 /* CPRingChart-dummy.m in Sources */,
-				F6C4F1AE0C33B419AFD1F9222C5C86B2 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E1AC8D7F2853E7628F5C17C4986A2C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				223F334A7D0E7927B9DC904BF6588D12 /* Pods-CPRingChart_Example-dummy.m in Sources */,
+				7086DD91240421319A7B5AB894DD46FB /* Pods-CPRingChart_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,85 +454,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		942F039ABF786A3596F7466E7C3A3089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C89FC34D3275FCC425988EA230DDB4 /* AppDelegate.swift in Sources */,
+				54D1558D6544D315A03B480A408DBD83 /* CircleProgressView-dummy.m in Sources */,
+				9E881E1A5B1CFC22054F440FFEB0670C /* CircleProgressView.swift in Sources */,
+				5EDB32084F408F80BFBE5E1E4748169E /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		065342181C784C7480C40CC4816A3D0F /* PBXTargetDependency */ = {
+		07FCD8D6744B7E58A1E9A7C11D9FA055 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CPRingChart;
 			target = C5FFA2AB9BD6E1EBA9C706D1D990D955 /* CPRingChart */;
-			targetProxy = 5092A39FE98D6FC17FB5D1C87F899863 /* PBXContainerItemProxy */;
+			targetProxy = D0635C3725B6BE0CE5F36F0067094EFD /* PBXContainerItemProxy */;
 		};
-		72636B7B814E16B118AC46BD331A6F88 /* PBXTargetDependency */ = {
+		7801D1051C03E8AB65CCB0A8F7B32498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressView;
+			target = 4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */;
+			targetProxy = 7F60BD11900C07A27FB720CD618B00C4 /* PBXContainerItemProxy */;
+		};
+		AE1DBDD8A760C1AA0A8BE6E0294A6D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressView;
+			target = 4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */;
+			targetProxy = C18A99819216EBF137B5241C8A55DC7E /* PBXContainerItemProxy */;
+		};
+		C2A176AC1116721B54144033015970B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CPRingChart_Example";
 			target = CFB4175BE19ECA37C76F40ED1F93FC29 /* Pods-CPRingChart_Example */;
-			targetProxy = 64F70F101C16ACCCFD75E5D68826EEE6 /* PBXContainerItemProxy */;
+			targetProxy = 977FD07C230D9DC7AC2C31A7FBCF1388 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05F967D76AC6BC5408A86134B24F4D3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FE7C789B1019798EB953880AC1C105B /* CPRingChart.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CPRingChart/CPRingChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CPRingChart/CPRingChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CPRingChart/CPRingChart.modulemap";
-				PRODUCT_MODULE_NAME = CPRingChart;
-				PRODUCT_NAME = CPRingChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0CA68C6AF87D2F5889F867803FD71873 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4795DC8EF1F104C993F9C2875A0B886 /* CPRingChart.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CPRingChart/CPRingChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CPRingChart/CPRingChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CPRingChart/CPRingChart.modulemap";
-				PRODUCT_MODULE_NAME = CPRingChart;
-				PRODUCT_NAME = CPRingChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		11920535FF6E51889D1E34B9AE025AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0599E882E47089E6671E65B760C73536 /* Pods-CPRingChart_Tests.release.xcconfig */;
@@ -566,11 +594,10 @@
 			};
 			name = Debug;
 		};
-		545581B81B7B162829EE2D5542A0C139 /* Release */ = {
+		650A706C56F3048561864478CC57B173 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65B2A3EDE90C3089217CF0FC91D8ACC1 /* Pods-CPRingChart_Example.release.xcconfig */;
+			baseConfigurationReference = DBE7F46F249D217739D5E1B91A9F56D9 /* CircleProgressView.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -579,19 +606,61 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CPRingChart_Example/Pods-CPRingChart_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressView/CircleProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressView/CircleProgressView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CPRingChart_Example/Pods-CPRingChart_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CircleProgressView/CircleProgressView.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressView;
+				PRODUCT_NAME = CircleProgressView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A12BA35E9DDC04E7E9D4ADCA9306D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DD1E868C7C14094FFEB3248C0BFF70 /* CPRingChart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6BDC06BD5D8DD31B0EDBFFBB7E6BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C57049C724CFD62E0D5F563D16B93B /* CircleProgressView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressView/CircleProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressView/CircleProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgressView/CircleProgressView.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressView;
+				PRODUCT_NAME = CircleProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -599,7 +668,7 @@
 			};
 			name = Release;
 		};
-		C7E7C90AB944B75259C9EE946C4A5DA7 /* Debug */ = {
+		AE03E081DC2AEE82874B49FBA461BDBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F57F930E7D3B71917A8C3B67DAD3CA5 /* Pods-CPRingChart_Example.debug.xcconfig */;
 			buildSettings = {
@@ -630,6 +699,20 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C76576B9EBEF6C0C8CF7E71B1784EB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBD9DF94FB46DA3B87ACB9CFE32D44D /* CPRingChart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -686,8 +769,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -725,6 +807,39 @@
 			};
 			name = Debug;
 		};
+		FC522E2A2B1FC9CE21CF9ABF2FCB875C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B2A3EDE90C3089217CF0FC91D8ACC1 /* Pods-CPRingChart_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPRingChart_Example/Pods-CPRingChart_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPRingChart_Example/Pods-CPRingChart_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -733,15 +848,6 @@
 			buildConfigurations = (
 				F76414612701CA871C0AE8248C9CA397 /* Debug */,
 				11920535FF6E51889D1E34B9AE025AA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		39BCBB8C9D4AD3EAF5D2AEBDC05FB366 /* Build configuration list for PBXNativeTarget "Pods-CPRingChart_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C7E7C90AB944B75259C9EE946C4A5DA7 /* Debug */,
-				545581B81B7B162829EE2D5542A0C139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,11 +861,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		702926127DD1FF88C25E8F725B96770B /* Build configuration list for PBXNativeTarget "CPRingChart" */ = {
+		5D3C72627567D8678CD0D1EE8D919616 /* Build configuration list for PBXNativeTarget "CircleProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CA68C6AF87D2F5889F867803FD71873 /* Debug */,
-				05F967D76AC6BC5408A86134B24F4D3B /* Release */,
+				650A706C56F3048561864478CC57B173 /* Debug */,
+				AA6BDC06BD5D8DD31B0EDBFFBB7E6BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1778D49674105C004F914094D7B67C /* Build configuration list for PBXAggregateTarget "CPRingChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A12BA35E9DDC04E7E9D4ADCA9306D7E /* Debug */,
+				C76576B9EBEF6C0C8CF7E71B1784EB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C1E47D2DBA89E255BB199C12FDAD07 /* Build configuration list for PBXNativeTarget "Pods-CPRingChart_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE03E081DC2AEE82874B49FBA461BDBF /* Debug */,
+				FC522E2A2B1FC9CE21CF9ABF2FCB875C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
