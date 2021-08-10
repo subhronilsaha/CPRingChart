@@ -26,7 +26,7 @@ pod 'CPRingChart'
 
 ## Author
 
-Subhronil Saha, subhronil.quixote@gmail.com
+Subhronil Saha, subhronilsaha26@gmail.com
 
 ## License
 
