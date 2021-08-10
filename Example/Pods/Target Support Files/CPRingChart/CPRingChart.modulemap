@@ -1,0 +1,6 @@
+framework module CPRingChart {
+  umbrella header "CPRingChart-umbrella.h"
+
+  export *
+  module * { export * }
+}

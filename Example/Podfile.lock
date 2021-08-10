@@ -1,0 +1,16 @@
+PODS:
+  - CPRingChart (0.1.0)
+
+DEPENDENCIES:
+  - CPRingChart (from `../`)
+
+EXTERNAL SOURCES:
+  CPRingChart:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPRingChart: c45eaf10317da95ee3a56ce7fb3dc11af47286db
+
+PODFILE CHECKSUM: 65931df61731b9aadd74b4ff0759ffe8c4f0e270
+
+COCOAPODS: 1.10.1

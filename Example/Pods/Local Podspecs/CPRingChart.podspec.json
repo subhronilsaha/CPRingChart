@@ -1,0 +1,22 @@
+{
+  "name": "CPRingChart",
+  "version": "0.1.0",
+  "summary": "A short description of CPRingChart.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/44949134/CPRingChart",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "44949134": "subhronil.quixote@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/44949134/CPRingChart.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CPRingChart/Classes/**/*"
+}

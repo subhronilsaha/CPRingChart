@@ -1,0 +1,6 @@
+framework module Pods_CPRingChart_Example {
+  umbrella header "Pods-CPRingChart_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

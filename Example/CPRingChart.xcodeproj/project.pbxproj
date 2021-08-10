@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* CPRingChart_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPRingChart_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		62BE51A7D19F7E092DE4C6FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		62BE51A7D19F7E092DE4C6FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		661615C8A482A9C79F163A14 /* Pods_CPRingChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRingChart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8498C6A25DACAB73BDA44EB3 /* CPRingChart.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CPRingChart.podspec; path = ../CPRingChart.podspec; sourceTree = "<group>"; };
-		A1BD439D7D9F58F588DBA0EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8498C6A25DACAB73BDA44EB3 /* CPRingChart.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPRingChart.podspec; path = ../CPRingChart.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1BD439D7D9F58F588DBA0EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ADA9CEF7CD27075F71380C29 /* Pods-CPRingChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRingChart_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CPRingChart_Tests/Pods-CPRingChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B680CC28C6AD5CDA017ECBC7 /* Pods-CPRingChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRingChart_Tests.release.xcconfig"; path = "Target Support Files/Pods-CPRingChart_Tests/Pods-CPRingChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CADB167AF62277AD96426441 /* Pods-CPRingChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRingChart_Example.release.xcconfig"; path = "Target Support Files/Pods-CPRingChart_Example/Pods-CPRingChart_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				ADA9CEF7CD27075F71380C29 /* Pods-CPRingChart_Tests.debug.xcconfig */,
 				B680CC28C6AD5CDA017ECBC7 /* Pods-CPRingChart_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
