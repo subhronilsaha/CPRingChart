@@ -9,36 +9,36 @@ import Foundation
 import UIKit
 import CircleProgressView
 
-class CPRingChart: UIView {
+public class CPRingChart: UIView {
     
     // Number of sections or number of rings in the chart
-    var sections = 0
+    public var sections = 0
     
     // Individual values of all rings
     // -> Can be a list of any values, not necessarily between 0...100
     // -> values.count == sections, ALWAYS
-    var values = [Double]()
+    public var values = [Double]()
     
     // List of Pie charts that will be rendered on screen
     private var pieCharts = [CircleProgressView]()
     
     // List of Pie Chart fill colors
-    var fillColors = [UIColor]()
+    public var fillColors = [UIColor]()
     
     // List of Pie Chart angle offsets
     private var angleOffsets = [Double]()
     
     // Spacing between individual rings
-    var spacing : Double = 0.05
+    public var spacing : Double = 0.05
     
     // Width of each rinng
-    var ringWidth : CGFloat = 10
+    public var ringWidth : CGFloat = 10
     
     // Boolean to make cap rounded or not
-    var roundedCap = true
+    public var roundedCap = true
     
     // Set center fill color for all charts
-    var centerFillColor : UIColor = .clear
+    public var centerFillColor : UIColor = .clear
     
     // MARK:- init
     //initWithFrame to init view from code
