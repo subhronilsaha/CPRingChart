@@ -1,16 +1,24 @@
 PODS:
-  - CPRingChart (0.1.0)
+  - CircleProgressView (1.2.0)
+  - CPRingChart (0.1.0):
+    - CircleProgressView
 
 DEPENDENCIES:
+  - CircleProgressView
   - CPRingChart (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CircleProgressView
 
 EXTERNAL SOURCES:
   CPRingChart:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CPRingChart: c45eaf10317da95ee3a56ce7fb3dc11af47286db
+  CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
+  CPRingChart: b270ef052d25947c0dd7f4327a4ab1e77393d98b
 
-PODFILE CHECKSUM: 65931df61731b9aadd74b4ff0759ffe8c4f0e270
+PODFILE CHECKSUM: bcda1d3e5430ea42f90374ec0ec11081e7e315c7
 
 COCOAPODS: 1.10.1

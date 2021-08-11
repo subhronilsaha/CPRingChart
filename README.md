@@ -24,6 +24,8 @@ pod 'CPRingChart'
     - Set the properties mentioned below.
     - Call `reloadChart()` method of your `CPRingChart` instance (ie, IBOutlet).
 
+**NOTE:** In v0.1.0, please locate the CPRingChart.swift file in `Pods (Project) ->  Pods (Directory) -> CPRingChart -> CPRingChart.swift` and add the public keyword before the class definition & variables not marked private. This is fixed in v0.1.1
+
 You can change the following properties:
 
 - ``` sections : Double ``` 

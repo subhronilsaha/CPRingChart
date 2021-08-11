@@ -9,7 +9,6 @@ target 'CPRingChart_Example' do
   
   target 'CPRingChart_Tests' do
     inherit! :search_paths
-
     
   end
 end
