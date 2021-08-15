@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/CPRingChart.svg?style=flat)](https://cocoapods.org/pods/CPRingChart)
 [![Platform](https://img.shields.io/cocoapods/p/CPRingChart.svg?style=flat)](https://cocoapods.org/pods/CPRingChart)
 
+![Frame 1](https://user-images.githubusercontent.com/44949134/129474827-fb769292-dcba-400d-8424-294a786d87c1.png)
+
 ## Installation
 
 CPRingChart is available through [CocoaPods](https://cocoapods.org). To install
