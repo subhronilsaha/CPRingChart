@@ -26,6 +26,8 @@ pod install
 
 ## Usage
 
+You can read this explanation post that I wrote on Dev.to for better reference : https://dev.to/subhronilsaha/a-practical-guide-to-creating-ring-charts-using-the-cpringchart-library-27oa
+
 **1. Using Storyboard / Interface Builder**
 
     - Drop a UIView into your Storyboard file.
