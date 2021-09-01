@@ -11,7 +11,9 @@
 
 CPRingChart is a customisable Swift library for creating ring charts quickly and with just a few lines of code. You can add it to your Swift project using Cocoapods.
 
-The most widely used library for making these kind of charts, in my opinion, is probably the amazing 'Charts' library by Daniel Gindi (https://github.com/danielgindi/Charts), where you would  essentially create a hollow pie-chart. But unfortunately it does not provide the option to add rounded caps to your slices. Hence this library aims to solve that problem.
+The most widely used library for making these kind of charts, in my opinion, is probably the amazing 'Charts' library by Daniel Gindi (https://github.com/danielgindi/Charts), where you would  essentially create a hollow pie-chart. But unfortunately it does not provide the option to add rounded caps to your slices. 
+
+Hence this library aims to solve that problem.
 
 ## Installation
 
