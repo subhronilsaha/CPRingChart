@@ -93,4 +93,5 @@ Subhronil Saha, subhronilsaha26@gmail.com
 ## License
 
 CPRingChart is available under the MIT license. See the LICENSE file for more info. 
-Uses CircleProgressView by CardinalNow https://github.com/CardinalNow/iOS-CircleProgressView
+
+CPRingChart uses CircleProgressView under the hood. Check out the repo CircleProgressView by CardinalNow: https://github.com/CardinalNow/iOS-CircleProgressView
